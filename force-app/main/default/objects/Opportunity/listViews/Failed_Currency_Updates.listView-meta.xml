@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failed_Currency_Updates</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Expected_Currency_Type__c</columns>
+    <columns>Currency_Update_Status__c</columns>
+    <columns>Currency_Error_Message__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Currency_Update_Status__c</field>
+        <operation>equals</operation>
+        <value>Failed</value>
+    </filters>
+    <label>Failed Currency Updates</label>
+</ListView>

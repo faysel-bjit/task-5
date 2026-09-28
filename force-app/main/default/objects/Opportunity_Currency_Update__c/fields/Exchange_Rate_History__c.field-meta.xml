@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exchange_Rate_History__c</fullName>
+    <label>Exchange Rate History</label>
+    <description>The rate record this conversion used.</description>
+    <externalId>false</externalId>
+    <referenceTo>Exchange_Rate_History__c</referenceTo>
+    <relationshipLabel>Currency Updates</relationshipLabel>
+    <relationshipName>Currency_Updates</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
